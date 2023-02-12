@@ -1,56 +1,8 @@
-header {
-    border-bottom: 1px solid #DEE2E6;
-}
-
 .header__title {
+    margin: 80px auto 33px;
     font-weight: 700;
     font-size: 64px;
     line-height: 77px;
     color: #000000;
-    text-align: left;
+    text-align: center;
 }
-
-.header__subtitle {
-    font-size: 21px;
-    line-height: 36px;
-    color: #000000;
-    text-align: left;
-    margin-bottom: 30px;
-}
-
-.header__btn {
-    display: block;
-    width: 452px;
-    height: 38px;
-    background: #FFFFFF;
-    border: 1px solid #CED4DA;
-    border-radius: 10px;
-    font-size: 21px;
-    line-height: 36px;
-    color: #000000;
-}
-.module__wrapper {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    /* background-color: black; */
-    background-color: rgba(0,0,0,0.5);
-}
-.module__card {
-    background-color: white;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid red;
-    width: 40%;
-    border-radius: 10px;
-  }
-
-
-
-
-

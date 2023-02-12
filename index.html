@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exam_window</title>
+  <title>ToDo_List</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
@@ -14,29 +14,31 @@
   <div class="page">
     <header>
       <div class="container">
-        <div class="header__card">
-          <h1 class="header__title">HEllO</h1>
-          <button class="header__btn">O P E N</button>
-          <p class="header__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt molestias quasi minus delectus eveniet iste fugiat pariatur perspiciatis dolorem illo incidunt, excepturi laborum quis? Autem magnam eaque qui earum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nemo sit repellat eius minima molestiae, cupiditate soluta dolorem perferendis est, nulla illo labore cumque optio veniam eaque sunt! Culpa, veritatis.
-          Aperiam odit, dolorem, consequatur voluptatibus magni blanditiis sequi dolor excepturi nemo est soluta quis deleniti eligendi saepe laborum? Aspernatur sunt exercitationem itaque accusantium debitis dolor commodi quod a nulla eaque!
-          At repudiandae, doloribus delectus illo aliquid ea blanditiis. Id velit reprehenderit, odit quidem eveniet necessitatibus, fugit corrupti rerum quae quibusdam totam! Eos deserunt ea necessitatibus consectetur perspiciatis dicta voluptates impedit.
-          At, consectetur. Rerum, nihil laboriosam? Quod minus, iure esse hic repellat necessitatibus facere nihil corrupti fugiat voluptas voluptatum eveniet asperiores dolorum repudiandae provident, quaerat dignissimos pariatur quas nisi perferendis non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis veniam provident quo fugit laborum voluptatem nihil molestiae blanditiis, ullam, minus quam iste quis ad sunt dolorum. Laborum nisi minus molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste possimus quos quae, quaerat consectetur, dignissimos accusamus at autem aliquid placeat facere sequi ad animi porro perferendis rem reprehenderit architecto ullam.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi molestias voluptas, doloribus asperiores, deleniti doloremque quos nobis ullam consequatur eius illum cumque. Ad, similique facilis repellat voluptates suscipit veritatis.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam neque possimus ad voluptatum. Inventore sint laborum dicta totam quaerat, consectetur, quae id, eveniet sequi provident vitae fuga tempora dolore veniam!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, illo iste error sapiente, animi ipsum velit fugiat officiis suscipit necessitatibus expedita eos consequuntur illum vel pariatur tenetur iure eum sunt?
-        </p>
-        </div>
+          <h1 class="header__title">ToDo List</h1>
       </div>
-        <div class="module__wrapper">
-            <div class="module__card">
-              <h2 class="module__title">World</h2>
-              <p class="module__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vero culpa dolorem saepe optio, similique est, sequi dolor tempore accusamus sapiente quasi expedita eum numquam quas ipsa. Blanditiis, amet adipisci.</p>
-            </div>
-        </div>
     </header>
   
     <main>  
       <section>
+        <div class="container">
+          <div class="cont__card">
+            <form class="input-field">
+              <div class="inputs__wrapper"> 
+                <input class="cont__input" type="text" placeholder="Введите задачу"/>
+                <button class="cont__btn btn__add">Добавить</button>
+              </div>
+            </form>
+            <div class="check__wrapper">
+              <ul class="check__list">
+                
+              </ul>
+              <div class="buttons__wrapper">
+                <button class="cont__btn cont__btnGray">Удалить завершенные</button>
+                <button class="cont__btn cont__btnRed">Удалить все</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
@@ -44,8 +46,6 @@
       <p class="footer__subtitle">2023 &#169; Made by me</p>   
     </footer>
   </div>
-  <!-- <script src="./scripts/script.js" type="module"></script> -->
-
   <script src="./scripts/script.js"></script>
 </body>
 </html>

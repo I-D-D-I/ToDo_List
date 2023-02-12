@@ -15,7 +15,6 @@ body {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 400;
     background-color: #EDEEF3;
-    /* position: fixed; */
 }
 
 a {
@@ -54,9 +53,3 @@ img {
     display: swap;
 }
 
-@media (max-width: 700px) {
-    .container {
-        padding: 40px;
-    }
-
-}
