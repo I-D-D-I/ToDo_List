@@ -91,6 +91,7 @@ input:checked + span {
     font-size: 16px;
     line-height: 21px;
     color: #54595E;
+    margin-left: 16px;
 }
 .check__made {
     display: inline;
@@ -107,7 +108,7 @@ input:checked + span {
     line-height: 21px;
     background-color: #FFFFFF;
     border: 0;
-    margin-left: auto;
+    float: right;
 }
 
 .cont__cross:hover {

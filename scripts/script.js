@@ -70,8 +70,8 @@ const deleteChecked = () => {
 
 const drawTodo = (obj) => {
   const li = document.createElement('li');
-  li.innerHTML = `<input class="check" type='checkbox'> 
-                  <span>${obj.text}</span>
+  li.innerHTML = `<input class='check' type='checkbox'> 
+                  <span class='check__text'>${obj.text}</span>
                   <button class='cont__cross btn__del'>❌</button>`;    
   const del = li.querySelector('.btn__del');   
   const chk = li.querySelector('.check');
